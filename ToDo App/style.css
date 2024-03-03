@@ -1,0 +1,90 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+}
+.first-div{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+}
+.inner-div{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: 60px;
+    /* height: 200px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+.inner-div .header{
+    background-color: blue;
+    height: 70px;
+    width: 100%; 
+}
+.header p{
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px; 
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.content{
+    padding: 30px;
+}
+.form-input{
+    /* margin: 10px; */
+    display: inline;
+    position: relative;
+}
+#taskInput{
+    width: 85%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid grey;
+    /* margin: 20px; */
+}
+#taskInput:focus{
+    outline: none;
+    border-bottom: 3px solid blue;
+}
+.btn{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.task-list{
+    margin-top: 50px;
+}
+.task-card{
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+.task-content{
+    padding: 20px;
+    /* display: inline-flex; */
+}
+.form-check-input{
+    vertical-align: bottom;
+    position:relative;
+}
+.form-check-label{
+    margin-left: 5px;
+    font-size: 18px;
+    vertical-align: top;
+    word-wrap: break-word;
+    max-width: 75%;
+}
+.icons{
+    float: right; 
+}
+i{
+    font-size: 25px;
+    color: blue;
+    margin-left: 5px;
+}
+.icon-btn{
+    border: none;
+    background-color: white;
+}
